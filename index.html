@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat Form</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran Siswa - Tugas 8</h1>
+    <table>
+        <tr>
+            <td>Calon Nama Siswa</td>
+            <td>:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Tempat/Tanggal Lahir</td>
+            <td>:</td>
+            <td><input type="text"> <input type="date"></td>
+
+        </tr>
+        <tr>
+            <td><label for="agama">Agama</label></td>
+            <td>:</td>
+            <td><select name="agama" id="agama">
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="katholik">Katholik</option>
+                <option value="hindu">Hindu</option>
+                <option value="buddha">Buddha</option>
+                <option value="konghucu">Konghucu</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><label for="alamat">Alamat</label></td>
+            <td>:</td>
+            <td><textarea name="alamat" id="alamat" cols="50" rows="4"></textarea></td>
+        </tr>
+        <tr>
+            <td>No Telp/Hp</td>
+            <td>:</td>
+            <td><input type="number"></td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>:</td>
+            <td><input type="radio" name="pria" id="jenis_kelamin" value="pria"> <label for="pria">Pria</label> <input type="radio" name="perempuan" id="jenis_kelamin" value="perempuan"> <label for="perempuan">Wanita</label></td>
+        </tr>
+        <tr>
+            <td>Hobi</td>
+            <td>:</td>
+            <td><input type="checkbox" name="membaca" id="hobi"> <label for="membaca">Membaca</label> <input type="checkbox" name="menulis" id="hobi"> <label for="menulis">Menulis</label> <input type="checkbox" name="olahraga" id="hobi"> <label for="olahraga">Olahraga</label></td>
+        </tr>
+        <tr>
+            <td>Pas Foto</td>
+            <td>:</td>
+            <td><input type="file" name="foto" id="foto"></td>
+        </tr>
+    </table>
+    <button type="submit">Kirim..</button>
+</body>
+</html>
